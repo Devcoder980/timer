@@ -1,0 +1,171 @@
+
+  header {
+    /* border: 2px solid red; */
+    padding: 7% 0%;
+  }
+  header,main{
+    background-color:hsl(235, 16%, 14%);
+    background-image: url(/launch-countdown-timer-main/images/bg-stars.svg);
+  }
+  footer{
+    background-color: hsl(237, 18%, 59%);
+    background-image: url(/launch-countdown-timer-main/images/pattern-hills.svg);
+  }
+  main {
+    /* border: 2px solid #008000; */
+    min-width: 980px;
+  }
+
+
+
+  .first {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .second {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .first div {
+    width: 135px;
+    height: 63px;
+    border: 2px solid;
+    border-radius: 6% 6% 10% 10%;
+    margin: 0px 17px 0px 0px;
+    background-color: #2c2c44;
+  }
+
+  .second div {
+    width: 135px;
+    height: 60px;
+    border: 2px solid;
+    border-radius: 10% 10% 6% 6%;
+    margin: 0px 17px 0px 0px;
+    background-color: #34364f;
+  }
+
+  .mid div {
+    width: 135px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 6em;
+    margin: 0px 17px 0px 0px;
+    color: hsl(345, 95%, 68%);
+    font-weight: bold;
+  }
+
+  .mid {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    flex-wrap: wrap;
+    top: 308px;
+    right: 7px;
+    left: 7px;
+  }
+  main{
+    display: flex;
+    justify-content: center;
+    /* height: 38em; */
+  }
+  p{
+    text-align: center;
+    margin: 2% 0%;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: white;
+  }
+  .four{
+    display: flex;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color:  rgb(132, 130, 130);
+  }
+  .four div{
+    width: 154px;
+    height: 63px;
+  }
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6% 0%;
+    height: 47px;
+  }
+  footer div{
+    margin-left: 23px;
+    margin-right: 23px;
+  }
+@media screen and (max-width:1300px){
+  .mid{
+    top: 270px;
+  }
+}
+@media screen and (max-width:400px) {
+  main{
+    min-width: none;
+    width: 197vh;
+    height: 99em;
+  }
+  p{
+    font-size: 5em;
+  }
+  header{
+    width: 195vh;
+    height: 63vh;
+   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  footer{
+    width: 185vh;
+    /* height: 135px; */
+    height: 158px;
+  }
+  .first div{
+    width: 33em;
+    height: 20em;
+  }
+  .second div{
+    width: 33em;
+    height: 20em;
+  }
+  .four{
+    font-size: 4em;
+    justify-content: space-evenly;
+  }
+  .mid{
+    position: absolute;
+    top: 70em;
+    padding-left: 47em;
+  }
+.mid div{
+  font-size: 27em;
+}
+
+.mid #days{
+  margin-top: -84vh;
+}
+.mid #hours{
+  margin-top: -39vh;
+}
+.mid minutes{
+  margin-top: 1vh;
+}
+.mid seconds{
+  margin-top: 29vh;
+}
+}
