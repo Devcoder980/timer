@@ -1,4 +1,4 @@
-# Frontend Mentor - Launch countdown timer
+ Mentor - Launch countdown timer
 
 ![Design preview for the Launch countdown timer coding challenge](./design/desktop-preview.jpg)
 
@@ -6,7 +6,8 @@
 
 Thanks for checking out this front-end coding challenge.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+
+Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
 **To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
 
