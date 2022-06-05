@@ -5,11 +5,11 @@
   }
   header,main{
     background-color:hsl(235, 16%, 14%);
-    background-image: url(bg-stars.svg);
+    background-image: url("bg-stars.svg");
   }
   footer{
     background-color: hsl(237, 18%, 59%);
-    background-image: url(pattern-hills.svg);
+    background-image: url("pattern-hills.svg");
   }
   main {
     /* border: 2px solid #008000; */
