@@ -1,7 +1,7 @@
 // setTimeout(function(){
 //     window.location.reload();
 //  }, 5000);
-let day=new Date("june 10, 2022 15:23:34").getTime();
+let day=new Date("june 10, 2023 15:23:34").getTime();
 var x=setInterval(function(){
     var now=new Date().getTime();
     var distance=day-now;
